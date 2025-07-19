@@ -1,0 +1,25 @@
+{
+  "name": "debottamapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "npm install",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Debottam Kar",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}
